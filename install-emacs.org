@@ -1,0 +1,60 @@
+#+TITLE: How to install the latest developmental version of Emacs (27.0.50) on Windows 10 for Dummies
+
+<2019-11-29 Fri>
+
+- Download and install https://www.msys2.org/
+- Update with pacman -Syu
+- Then with pacman -Su
+
+- Add c:\msys64\usr\bin;c:\msys64\mingw64\bin to Windows PATH environment variable. This also ensures find.exe will work
+
+- Install these packages:
+
+pacman -S base-devel \
+mingw-w64-x86_64-toolchain \
+mingw-w64-x86_64-xpm-nox \
+mingw-w64-x86_64-libtiff \
+mingw-w64-x86_64-giflib \
+mingw-w64-x86_64-libpng \
+mingw-w64-x86_64-libjpeg-turbo \
+mingw-w64-x86_64-librsvg \
+mingw-w64-x86_64-libxml2 \
+mingw-w64-x86_64-imagemagick \
+mingw-w64-x86_64-gnutls
+
+- Install git:
+
+pacman -s git
+
+- Install the hack font:
+https://github.com/source-foundry/Hack-windows-installer/releases/tag/v1.6.0
+
+- Install aspell or hunspell
+
+pacman -S mingw-w64-x86_64-aspell mingw-w64-x86_64-aspell-en
+
+OR
+
+pacman -S mingw-w64-x86_64-hunspell mingw-w64-x86_64-hunspell-en
+
+- Install docx2txt
+
+pacman -S docx2txt
+
+- Create HOME variable in Windows Environmental Variables
+
+- Clone the Emacs git repository
+
+git clone https://github.com/mirrors/emacs.git
+
+cd ~/emacs
+./autogen.sh
+./configure
+make
+make install
+
+SOME USEFUL COMMANDS
+
+pacman -Ss hunspell -- searches for program "hunspell"
+pacman - S -- install program
+pacman -R -- remove program
