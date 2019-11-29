@@ -10,16 +10,17 @@
 
 - Install these packages:
 
-pacman -S base-devel \
-mingw-w64-x86_64-toolchain \
-mingw-w64-x86_64-xpm-nox \
-mingw-w64-x86_64-libtiff \
-mingw-w64-x86_64-giflib \
-mingw-w64-x86_64-libpng \
-mingw-w64-x86_64-libjpeg-turbo \
-mingw-w64-x86_64-librsvg \
-mingw-w64-x86_64-libxml2 \
-mingw-w64-x86_64-imagemagick \
+pacman -S base-devel
+
+mingw-w64-x86_64-toolchain
+mingw-w64-x86_64-xpm-nox
+mingw-w64-x86_64-libtiff
+mingw-w64-x86_64-giflib
+mingw-w64-x86_64-libpng
+mingw-w64-x86_64-libjpeg-turbo
+mingw-w64-x86_64-librsvg
+mingw-w64-x86_64-libxml2
+mingw-w64-x86_64-imagemagick
 mingw-w64-x86_64-gnutls
 
 - Install git:
@@ -48,13 +49,19 @@ pacman -S docx2txt
 git clone https://github.com/mirrors/emacs.git
 
 cd ~/emacs
+
 ./autogen.sh
+
 ./configure
+
 make
+
 make install
 
 SOME USEFUL COMMANDS
 
 pacman -Ss hunspell -- searches for program "hunspell"
+
 pacman - S -- install program
+
 pacman -R -- remove program
