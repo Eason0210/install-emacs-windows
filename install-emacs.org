@@ -58,6 +58,8 @@ make
 
 make install
 
+Type "emacs" to run emacs
+
 SOME USEFUL COMMANDS
 
 pacman -Ss hunspell -- searches for program "hunspell"
