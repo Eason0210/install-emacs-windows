@@ -13,32 +13,39 @@
 pacman -S base-devel
 
 mingw-w64-x86_64-toolchain
+
 mingw-w64-x86_64-xpm-nox
+
 mingw-w64-x86_64-libtiff
+
 mingw-w64-x86_64-giflib
+
 mingw-w64-x86_64-libpng
+
 mingw-w64-x86_64-libjpeg-turbo
+
 mingw-w64-x86_64-librsvg
+
 mingw-w64-x86_64-libxml2
+
 mingw-w64-x86_64-imagemagick
+
 mingw-w64-x86_64-gnutls
 
 - Install git:
 
 pacman -s git
 
-- Install the hack font:
+- Install the hack font (optional)
 https://github.com/source-foundry/Hack-windows-installer/releases/tag/v1.6.0
 
 - Install aspell or hunspell
 
 pacman -S mingw-w64-x86_64-aspell mingw-w64-x86_64-aspell-en
 
-OR
-
 pacman -S mingw-w64-x86_64-hunspell mingw-w64-x86_64-hunspell-en
 
-- Install docx2txt
+- Install docx2txt (optional)
 
 pacman -S docx2txt
 
@@ -49,6 +56,8 @@ pacman -S docx2txt
 git clone https://github.com/mirrors/emacs.git
 
 cd ~/emacs
+
+Compile Emacs as follows:
 
 ./autogen.sh
 
@@ -61,6 +70,7 @@ make install
 Type "emacs" to run emacs
 
 SOME USEFUL COMMANDS
+====================
 
 pacman -Ss hunspell -- searches for program "hunspell"
 
