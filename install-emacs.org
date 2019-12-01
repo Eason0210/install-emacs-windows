@@ -65,7 +65,7 @@ make
 
 make install
 
-Type "emacs" to run emacs
+Type "emacs" at the command line run emacs.
 
 SOME USEFUL COMMANDS:
 
