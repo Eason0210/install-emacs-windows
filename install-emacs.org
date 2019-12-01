@@ -57,11 +57,13 @@ Type "emacs" at the command line run emacs.
 
 SOME USEFUL COMMANDS:
 
+SHIFT-INSERT -- inserts text copied to the clipboard into msys
+
 pacman -Ss hunspell -- searches for program "hunspell"
 
 pacman - S -- install program
 
-pacman -R -- remove program
+pacman - R -- remove program
 
 PERSONAL CHOICES
 
@@ -84,7 +86,7 @@ pacman -S docx2txt
 
 [[https://www.youtube.com/watch?v=N9zVyggYeyU][install instructions]]
 
-- Add this code:
+- Add this code to your dot emacs:
 
 #+BEGIN_SRC emacs-lisp
   (require 'ox-pandoc)
