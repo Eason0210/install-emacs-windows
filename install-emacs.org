@@ -10,7 +10,7 @@
 
 - Create HOME variable in Windows Environmental Variables
 
-[[./home.png][home variable]]
+[[./home.png][click here]]
 
 - Install these packages:
 
