@@ -8,10 +8,6 @@
 
 - Add c:\msys64\usr\bin;c:\msys64\mingw64\bin to Windows PATH environment variable. This also ensures find.exe will work
 
-- Create HOME variable in Windows Environmental Variables
-
-[[./home.png][home variable]]
-
 - Install these packages:
 
 pacman -S base-devel
@@ -49,13 +45,19 @@ pacman -S mingw-w64-x86_64-aspell mingw-w64-x86_64-aspell-en
 
 pacman -S mingw-w64-x86_64-hunspell mingw-w64-x86_64-hunspell-en
 
+- Install docx2txt (optional)
+
+pacman -S docx2txt
+
+- Create HOME variable in Windows Environmental Variables
+
 - Clone the Emacs git repository
 
 git clone https://github.com/mirrors/emacs.git
 
 cd ~/emacs
 
-- Compile Emacs as follows:
+Compile Emacs as follows:
 
 ./autogen.sh
 
@@ -74,4 +76,3 @@ pacman -Ss hunspell -- searches for program "hunspell"
 pacman - S -- install program
 
 pacman -R -- remove program
-
