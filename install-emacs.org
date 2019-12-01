@@ -1,7 +1,7 @@
 #+TITLE: How to install the latest developmental version of Emacs (27.0.50) on Windows 10 -- for Dummies
 Last update: <2019-12-01 Sun 12:45>
 
-- Download and install https://www.msys2.org/ (I use the 64bit version.)
+- Download and install https://www.msys2.org/
 - Update with pacman -Syu
 - Then with pacman -Su
 
@@ -90,3 +90,8 @@ pacman -S docx2txt
 #+BEGIN_SRC emacs-lisp
   (require 'ox-pandoc)
 #+END_SRC
+
+CREATING SHORTCUTS
+
+- Go to C:\msys64\mingw64\bin and create a shortcut on your desktop of runemacs.exe
+- If you wish to use Emacsclient make a shortcut of emacsclient.exe. Right click and change the target properties to C:\msys64\mingw64\bin\emacsclientw.exe -a="" -c
