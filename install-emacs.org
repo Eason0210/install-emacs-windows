@@ -33,6 +33,8 @@ https://github.com/source-foundry/Hack-windows-installer/releases/tag/v1.6.0
 
 pacman -S mingw-w64-x86_64-aspell mingw-w64-x86_64-aspell-en
 
+OR
+
 pacman -S mingw-w64-x86_64-hunspell mingw-w64-x86_64-hunspell-en
 
 - Clone the Emacs git repository
