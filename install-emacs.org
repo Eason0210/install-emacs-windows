@@ -2,7 +2,7 @@
 
 <2019-11-29 Fri>
 
-- Download and install https://www.msys2.org/
+- Download and install https://www.msys2.org/ (I use the 64bit version.)
 - Update with pacman -Syu
 - Then with pacman -Su
 
@@ -12,29 +12,15 @@
 
 [[./home.png][Click here to see how]]
 
-- Install these packages:
+- Install these packages (required)
 
-pacman -S base-devel
+pacman -S base-devel mingw-w64-x86_64-toolchain
 
-mingw-w64-x86_64-toolchain
+- Optional packages
 
-mingw-w64-x86_64-xpm-nox
+mingw-w64-x86_64-xpm-nox mingw-w64-x86_64-libtiff mingw-w64-x86_64-giflib mingw-w64-x86_64-libpng mingw-w64-x86_64-libjpeg-turbo mingw-w64-x86_64-librsvg mingw-w64-x86_64-libxml2 mingw-w64-x86_64-imagemagick mingw-w64-x86_64-gnutls
 
-mingw-w64-x86_64-libtiff
-
-mingw-w64-x86_64-giflib
-
-mingw-w64-x86_64-libpng
-
-mingw-w64-x86_64-libjpeg-turbo
-
-mingw-w64-x86_64-librsvg
-
-mingw-w64-x86_64-libxml2
-
-mingw-w64-x86_64-imagemagick
-
-mingw-w64-x86_64-gnutls
+[[https://sourceforge.net/p/emacsbinw64/wiki/Build%20guideline%20for%20MSYS2-MinGW-w64%20system/][For details see this page]]
 
 - Install git:
 
