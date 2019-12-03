@@ -94,4 +94,6 @@ pacman -S docx2txt
 CREATING SHORTCUTS
 
 - Go to C:\msys64\mingw64\bin and create a shortcut on your desktop of runemacs.exe
-- If you wish to use Emacsclient make a shortcut of emacsclient.exe. Right click and change the target properties to C:\msys64\mingw64\bin\emacsclientw.exe -a="" -c
+- If you wish to use Emacsclient make a shortcut of emacsclient.exe. Right click and change the target properties to:
+
+C:\msys64\mingw64\bin\emacsclientw.exe -a="" -c
