@@ -36,6 +36,10 @@ OR
 
 pacman -S mingw-w64-x86_64-hunspell mingw-w64-x86_64-hunspell-en
 
+- Install zip (to export org mode files)
+
+pacman -S zip
+
 - Clone the Emacs git repository
 
 git clone https://github.com/mirrors/emacs.git
