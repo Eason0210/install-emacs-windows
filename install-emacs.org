@@ -64,33 +64,6 @@ pacman - S -- install program
 
 pacman - R -- remove program
 
-PERSONAL CHOICES
-
-For me no Emacs experience is complete without these tools:
-
-- docx2txt
-
-pacman -S docx2txt
-
-- Add this code to your dot emacs:
-
-#+BEGIN_SRC emacs-lisp
-  (add-to-list 'auto-mode-alist '("\\.docx\\'" . docx2txt))
-  (defun docx2txt ()
-	"Run docx2txt on the entire buffer."
-	(shell-command-on-region (point-min) (point-max) "docx2txt" t t))
-#+END_SRC
-
-- pandoc
-
-[[https://www.youtube.com/watch?v=N9zVyggYeyU][install instructions]]
-
-- Add this code to your dot emacs:
-
-#+BEGIN_SRC emacs-lisp
-  (require 'ox-pandoc)
-#+END_SRC
-
 CREATING SHORTCUTS
 
 - Go to C:\msys64\mingw64\bin and create a shortcut on your desktop of runemacs.exe
