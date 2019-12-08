@@ -74,3 +74,19 @@ CREATING SHORTCUTS
 - If you wish to use Emacsclient make a shortcut of emacsclient.exe. Right click and change the target properties to:
 
 C:\msys64\mingw64\bin\emacsclientw.exe -a="" -c
+
+CREATING SYMBOLIC LINKS	
+
+In order to create symlinks in Windows as one does in Linux one needs to give permission to the Windows user to create symbolic links or run Emacs as Administrator.
+
+One can follow the steps here to assign user permissions:
+
+https://superuser.com/questions/104845/permission-to-make-symbolic-links-in-windows-7
+
+To see a fuller discussion on the topic:
+
+https://www.reddit.com/r/emacs/comments/e7c01b/alternatives_to_symlinks_in_emacs/
+
+Thereafter one would type M-x make-symbolic-link in order to create a symlink.
+
+
