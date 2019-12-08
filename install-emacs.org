@@ -1,5 +1,7 @@
-#+TITLE: How to install the latest developmental version of Emacs (27.0.50) on Windows 10 -- for Dummies
+#+TITLE: How to install the latest developmental version of Emacs on Windows 10 -- for Dummies
 Last update: <2019-12-01 Sun 12:45>
+
+Please note that the steps below will work for any version of Emacs you wish to install, whether it be the stable release or the developmental version. One must tweak accordingly. 
 
 - Download and install https://www.msys2.org/
 - Update with *pacman -Syu*
@@ -87,6 +89,6 @@ To see a fuller discussion on the topic:
 
 https://www.reddit.com/r/emacs/comments/e7c01b/alternatives_to_symlinks_in_emacs/
 
-Thereafter one would type M-x make-symbolic-link in order to create a symlink.
+Thereafter one would type M-x make-symbolic-link to create a symlink.
 
 
