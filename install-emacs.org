@@ -1,5 +1,5 @@
 #+TITLE: How to install the latest developmental version of Emacs on Windows 10 -- for Dummies
-Last update: <2019-12-01 Sun 12:45>
+Last update: <2019-12-08 Sun>
 
 Please note that the steps below will work for any version of Emacs you wish to install, whether it be the stable release or the developmental version. One must tweak accordingly. 
 
