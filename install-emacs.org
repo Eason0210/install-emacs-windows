@@ -6,7 +6,7 @@ Last update: <2019-12-08 Sun>
 
 Please note that the steps below will work for any version of Emacs you wish to install, whether it be the stable release or the developmental version. One must tweak accordingly. 
 
-Please note that there are several ways to install Emacs on Windows. My method uses msys2 because in my experience this offers overall the best experience. (I am open to alternate points of view.)
+There are several ways to install Emacs on Windows. My method uses msys2 because in my experience this offers overall the best experience. (I am open to alternate points of view.)
 
 * Install msys2
 
