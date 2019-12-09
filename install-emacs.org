@@ -91,7 +91,7 @@ C:\msys64\mingw64\bin\emacsclientw.exe -a="" -c
 
 * Creating Symbolic Links	
 
-In order to create symlinks in Windows as one does in Linux one needs to give permission to the Windows user to create symbolic links or run Emacs as Administrator.
+In order to create symlinks in Windows as one does in Linux all one needs to do is to *give permission to the Windows user* to create symbolic links OR run Emacs as Administrator.
 
 One can follow the steps here to assign user permissions:
 
