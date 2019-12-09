@@ -72,6 +72,13 @@ cd ~/emacs
 
 Type "emacs" at the command line run emacs.
 
+
+* Alternative install method
+
+If you do not want to compile Emacs you can download an executable from:
+
+https://alpha.gnu.org/gnu/emacs/pretest/windows/emacs-27/
+
 * Some Useful Commands
 
 SHIFT-INSERT -- inserts text copied to the clipboard into msys
